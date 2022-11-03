@@ -3,7 +3,7 @@ const author = document.querySelector('.author')
 const quote = document.querySelector('.text')
 
 const calculate = () => {
-    return Math.floor(Math.random() * arr.length)
+    return Math.round(Math.random() * arr.length)
 }
 
 button.addEventListener('click', () => {
@@ -12,3 +12,10 @@ button.addEventListener('click', () => {
     author.textContent = arr[num].author
     console.log(num)
 })
+
+
+
+
+
+
+
